@@ -1,0 +1,42 @@
+:root {
+  //use css vars
+  --grey100: #8d8d8d;
+  --grey200: #939393;
+  --grey300: #afafaf;
+  --red: #ff0000;
+  --sm: 600px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 0rem;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+  margin-top: 1rem;
+  color: red;
+  font-weight: normal;
+}
